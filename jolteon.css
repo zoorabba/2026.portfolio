@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     border: solid 1px #dec9e2;
-    height: 4000px;
+    height: 8245px;
     width: 1024px;
 }
 
@@ -41,12 +41,6 @@ body{
 
 }
 
-/* #Flogo {
-    width: 80%;
-    position: relative;
-    top: -1170px;
-    margin-left: 20px;
-} */
 
 #whitebox {
     width: 100%;
@@ -57,20 +51,50 @@ body{
 
 #header-logo {
     height: 610px;
-    background-color: aqua;
     width: 100%;
+    background-color: #f4e8f9;
+    
 }
 
-
+#starsandlogo {
+    margin-top: 85px;
+    margin-left: 70px;
+    scale: 1.15;
+}
 
 #knowledge {
     height: 680px;
     width: 100%;
-    background-color: white;
+    background-color: #f8f7f9;
 }
-
 
 .divider {
     height: 85px;
     width: 100%;
 }
+
+#music-about {
+    height: 1205px;
+    width: 100%;
+    background-color:#ede7f7;
+
+}
+
+#music-i-like {
+    height: 1030px;
+    width: 100%;
+    background-color: #d6e3f2;
+}
+
+#Wall-op {
+    height: 3075px;
+    width: 100%;
+    background-color: #f8f7f9;
+}
+
+#hobbies-art {
+    height: 1230px;
+    width: 100%;
+    background-color: #d6e3f2;
+}
+
