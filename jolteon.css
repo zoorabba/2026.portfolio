@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: ;
+
 }
 
 
@@ -72,11 +72,13 @@ body{
     position: relative;
     scale: 3;
     margin-left: 355px;
-    margin-top: 350px
+    margin-top: 150px
 }
 
 #aqkn {
-    margin-left: 60px;
+    margin-top: 85px;
+    margin-left: 190px;
+    scale: 1.05;
 }
 
 .divider {
@@ -90,6 +92,20 @@ body{
     background-color:#ede7f7;
 
 }
+
+#music-title {
+    margin-top: 80px;
+    margin-left: 310px;
+    scale: 1.2;
+}
+
+#griffin {
+    scale: 2.6;
+    margin-left: 265px;
+    margin-top: 160px;
+}
+
+
 
 #music-i-like {
     height: 1030px;
