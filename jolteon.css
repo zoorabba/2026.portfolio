@@ -68,6 +68,17 @@ body{
     background-color: #f8f7f9;
 }
 
+#classes {
+    position: relative;
+    scale: 3;
+    margin-left: 355px;
+    margin-top: 350px
+}
+
+#aqkn {
+    margin-left: 60px;
+}
+
 .divider {
     height: 85px;
     width: 100%;
