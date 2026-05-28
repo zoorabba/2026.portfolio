@@ -95,7 +95,7 @@ a {
 }
 
 #music-about {
-    height: 1275px;
+    height: 1320px;
     width: 100%;
     background-color:#ede7f7;
 
@@ -107,13 +107,12 @@ a {
     scale: 1.2;
 }
 
-#griffin {
-    scale: 2.6;
-    margin-left: 265px;
-    margin-top: 160px;
+#uniform {
+    margin-left: 588px;
+    position: relative;
+    margin-top: -500px;
+    margin-bottom: 40px;
 }
-
-
 
 #music-i-like {
     height: 1030px;
