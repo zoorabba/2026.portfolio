@@ -9,6 +9,10 @@
 </head>
 <body>
 
+    <img id="zlink" src="Images/screaminglink.png" alt="">
+<div id="jumpscare">
+
+</div>
 
 <div id="main_container">
 
@@ -33,7 +37,7 @@
                 </div>
 
                 <div id="header-logo">
-                    <img id="starsandlogo" src="Images/STAR-LOGO.png" alt="logo" height="433px">
+                    <img id="starsandlogo" src="Images/STAR-LOGO_1.png" alt="logo" height="433px">
                 </div> 
                 <!-- end of above the scroll -->
 
@@ -104,7 +108,14 @@
     
     
     
-    
+        <script type="text/javascript">
+
+            document.getElementById("jumpscare").addEventListener("click",
+            function(){
+                document.getElementById("zlink").style.display="block";
+            })
+            
+        </script>
     
     
     

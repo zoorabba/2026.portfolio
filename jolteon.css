@@ -25,6 +25,22 @@ a {
     width: 1024px;
 }
 
+#jumpscare {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: calc(100% - 10px);
+    background-size:cover;
+    background-position:center;
+    transition:0.0s;
+    transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#zlink {
+    display: none;
+}
 
 #navlist_g {
     background-color: #dec9e2;
@@ -65,9 +81,17 @@ a {
 }
 
 #starsandlogo {
-    margin-top: 85px;
-    margin-left: 70px;
-    scale: 1.15;
+    margin-top: 95px;
+    margin-left: 130px;
+    scale: .95;
+    transition: all 0.3s ease-in-out;
+}
+
+#starsandlogo:hover {
+    transition-duration: .2s;
+    transition-delay: 2;
+    scale: 1.01;
+    
 }
 
 #knowledge {
